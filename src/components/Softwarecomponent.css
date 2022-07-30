@@ -1,0 +1,236 @@
+
+#aboutwordpressheadingContainer{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 40px 0px 40px;
+}
+
+#aboutwordpressheadingContainer h2{
+    font-size: 25px;
+    /* margin-left: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.masterContainer{
+    background-color: #fff;
+}
+.wordpress p{
+    text-align: left;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+
+
+.wordpressdiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    /* margin: 20px 20px; */
+    /* justify-content:flex-start; */
+}
+
+.wordpressexpertise{
+    width: 60%;
+    text-align:left;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+     margin: 20px 20px;
+    
+    /* font-size: 50px; */
+    /* padding-top: 20px ;
+    padding-bottom: 20px; */
+    /* padding: 20px; */
+}
+
+.wordpressexpertiseimg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+   
+}
+.wordpressexpertiseimg img{
+    width: 70%;
+}
+
+.wordpressexpertise ul li{
+    list-style-type: disc;
+    padding:10px 0px;
+    margin-left: 20px;
+    font-size: 20px;
+  
+}
+
+
+.wordpress p{
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+}
+.wordpressheading{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+.wordpresssolutiondiv{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.wordpresssolution{
+    width: 50%;
+    text-align: left;
+    margin: 20px 20px;
+
+}
+.wordpresssolution ul{
+margin-top: 20px;
+}
+.wordpresssolution ul li{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+
+.wordpresssolutionheading{
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+    font-weight: 500;
+}
+.wordpresssolutionimg{
+   margin: 0;
+   align-items: flex-end;
+   width: 50%;
+   display: flex;
+   margin: 20px 20px;
+   justify-content: center;
+}
+
+.wordpresssolutionimg img{
+    width: 50%;
+}
+
+
+.whydcdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px 10px 20px ;
+}
+.why .whytitle{
+    font-size: 25px;
+    font-weight: 900px;
+}
+.why{
+    width:50%;
+    text-align: left;
+    margin: 20px 20px;
+}
+.whyimg{
+    width: 50%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.why{
+    width: 50%;
+    text-align: left;
+
+}
+.why ul{
+margin-top: 20px;
+}
+.why ul li{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+   .wordpressdiv{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+   }
+
+   .wordpressexpertise{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+   }
+   .wordpressheading{
+    width: 90%;
+    
+   }
+
+   .wordpressexpertiseimg{
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+   }
+
+
+
+
+
+   .wordpresssolutiondiv{
+    flex-direction: column;
+   }
+   .wordpresssolutionimg{
+    width: fit-content;
+    margin: 20px 0px;
+   }
+
+   .wordpresssolution{
+    width: fit-content;
+    padding: 20px 20px;
+   }
+   .whydcdiv{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+   .why{
+    width: fit-content;
+   }
+   
+   .whyimg{
+    width: 100%;
+   }
+   .whyimg img{
+    width: 90%;
+    margin: 20px 0px;
+   }
+    
+  
+
+ 
+
+}

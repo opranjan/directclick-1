@@ -1,0 +1,140 @@
+#websitefirstheadingContainer{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.pricingContainer{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    width: 100%;
+    
+}
+.webdiv{
+    /* display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; */
+}
+.webdiv p{
+    text-align: left;
+    padding: 20px;
+    font-size: 17px;
+}
+.webdivheading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.webtype p{
+    text-align: left;
+    padding: 4px 20px 4px 20px;
+    font-size: 17px;
+}
+.webtypeheading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+
+.webstaticdiv{
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    /* justify-content:flex-start; */
+}
+
+.webstatic{
+    width: 60%;
+    text-align:left;
+    justify-content: left;
+    align-items: flex-start;
+    
+    /* font-size: 50px; */
+    /* padding-top: 20px ;
+    padding-bottom: 20px; */
+    /* padding: 20px; */
+}
+
+.webstaticimg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.webstaticimg img{
+    width: 70%;
+}
+
+
+.webstatic p{
+    text-align: left;
+    padding: 2px 20px 4px 20px;
+    font-size: 18px;
+}
+.webstaticheading{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .pricingContainer{
+        flex-direction: column;
+    }
+
+    .webdiv p{
+        text-align: left;
+        padding: 20px;
+       
+    }
+    .webdivheading{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
+    }
+    .webdivpara{
+        font-size: 15px;
+    }
+
+
+    .webstaticdiv{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .webstatic{
+        /* width: 100%;
+        border: 2px solid white; */
+
+        width:fit-content;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        text-align:center;
+        /* border: 2px solid red; */
+    }
+    
+    .webstaticimg{
+        width: 100%;
+        justify-content: center;
+        
+        
+    }
+
+    .webstaticimg img{
+        width: 100%;
+        
+    }
+
+}

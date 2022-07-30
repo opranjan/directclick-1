@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Charis+SIL:wght@700&family=Overpass:wght@300&display=swap');
+
+
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+
+  .line {
+    width: 100%;
+    height: 22px;
+    overflow: hidden;
+  }
+
+
+
+#welcomebox{
+    color: blue;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    animation: 2s anim-lineUp ease-out infinite;
+}
+
+
+
+
+
+
+
+.upbubblesolid{
+    background-color: #6f43d6;
+    width: 15px;
+    height: 15px;
+    right: 0;
+    border-radius: 20px;
+    z-index: 1000;
+
+    animation: myupbubble infinite;
+    position: relative;
+    animation-duration: 25s;
+}
+
+
+@keyframes myupbubble {
+    0%   { top: 50px; left: 0px;}
+    25%  {top: 0px; left: 200px;}
+    50%  { top: 150px; left: 160px;}
+     75%  { top: 200px; left: 0px;}
+    100%  { top: 100px; left: 100px;}
+    
+  }
+ 
+
+
+
+
+
+
+
+
+
+.homebannerContainer{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Charis SIL', serif;
+  
+
+   
+}
+.bannertext{
+    width: 50%;
+    text-align:left;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+    /* font-size: 50px; */
+    /* padding-top: 20px ;
+    padding-bottom: 20px; */
+    padding: 60px 10px 10px 10px;   
+    
+}
+
+
+
+
+.sloganspandiv{
+    width: 80%;
+    margin-top:0;
+    
+}
+#sloganspan{ 
+    font-size: 75px;
+}
+.bannertext p{
+    font-size: 1rem;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    /* margin: 10px; */
+    color: rgb(67, 65, 65);
+    width: 100%;
+    font-weight: 800;
+}
+.bannerImage{
+    width: 50%;
+    display: flex;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 2s;
+    overflow: hidden;
+    /* border-radius: 2px solid red; 
+    background-color: red; */
+    /* box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3); */
+  
+    
+}
+.bannerImage .banner1{
+    width: 90%; 
+   
+}
+.bannerImage .banner2{
+    width: 40%;
+    /* animation: myfirst infinite;
+    position: relative;
+    animation-duration: 8s;
+    padding-right: 10px; */
+    
+}
+
+.bannerImage .banner1:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+   background-color: #fff;
+   
+}
+
+
+
+
+
+ 
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .homebannerContainer{
+        flex-direction: column;
+        justify-content: space-around;
+        /* border: 2px solid blue; */
+    }
+
+    .bannerImage{
+     /* flex-direction: column;      */
+     width: 100%;
+    }
+    .bannerImage img{
+        width:50%;
+        /* border: 2px solid red; */
+    }
+    .bannertext{
+        width:fit-content;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        text-align:center;
+        /* border: 2px solid red; */
+    
+        
+    }
+    .bannertext p{
+        width: auto;
+        margin: 10px;
+        font-size: 0.9rem;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+
+    .sloganspandiv{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #sloganspan{
+        font-size: 1.6rem;
+        width: 100%;
+        text-align: center; 
+       
+    }
+
+
+
+ 
+  
+
+
+
+   
+}

@@ -1,0 +1,146 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+#aboutappheadingContainer{
+    /* margin-top: 20px; */
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 20px 0px 20px;
+
+}
+
+#aboutappheadingContainer h2{
+    font-size: 23px;
+}
+
+
+
+.appgrandparentdiv{
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+.appparentdiv{
+    width: 60%;
+    text-align:left;
+    justify-content: left;
+    align-items: flex-start;
+    
+}
+
+
+.appchildimg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.appchildimg img{
+    width: 90%;
+    animation: mysecondbubble infinite;
+    position: relative;
+    animation-duration: 8s;
+}
+
+@keyframes mysecondbubble {
+    0%   { top: 0px; left: 0px;}
+    25%  {top: 0px; left: 10px;}
+    50%  { top: 10px; left: 10px;}
+     75%  { top: 10px; left: 0px;}
+    100%  { top: 0px; left: 0px;}
+    
+  }
+
+.appgrandparentdiv p{
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+    color: rgb(49, 47, 47);
+}
+
+
+
+.appservice_layout{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+   
+    
+}
+.box{
+    height: 360px;
+    flex: 1 1 410px;
+}
+.appservice_layout #phoneicon{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.appservice_layout #phoneicon img{
+    height: 340px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    /* .appservice_layout{
+        flex-direction: column;
+    } */
+
+
+    .appgrandparentdiv{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .appparentdiv{
+        /* width: 100%;
+        border: 2px solid white; */
+
+        width:fit-content;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        text-align:center;
+        
+    }
+    .appparentdiv p{
+        font-size: 17px;
+    }
+    
+    .appchildimg{
+        width: 100%;
+        justify-content: center;
+        
+        
+    }
+
+    .appchildimg img{
+        width: 100%;
+        
+    }
+
+    #phoneicon img{
+        border: 1px solid brown;
+    }
+
+
+}

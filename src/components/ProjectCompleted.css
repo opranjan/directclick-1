@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+.pclayout{
+    /* background-color: #fff; */
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 15px 10px 15px;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 10px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 0.5px 0px rgb(237, 233, 233);
+
+
+background-size: 200% 200%;
+background-image: 
+linear-gradient(to top, #0f9efa 50%, transparent 50%);
+-webkit-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+-moz-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+-ms-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+-o-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+}
+
+.iconcontainer{
+    background-color:rgb(153, 246, 183);
+    padding: 10px;
+    border-radius: 40px;
+}
+
+
+.pclayout img{
+    width: 60px;
+}
+.pclayout p{
+    width: 100%;
+    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.pclayout:hover {color: white;
+    border-color: #A72424;
+    background-image: 
+    linear-gradient(to top, #0f9efa 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    -moz-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    -ms-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    -o-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    }
+
+
+
+@media screen and (max-width: 991px) {
+    .layoutContainer{
+        width: 100%;
+       flex-direction: column; 
+        justify-content:center;
+       border: 2px solid black;
+    }
+
+    .pclayout{
+        /* margin: 20px 15px 20px 15px; */
+        height: 180px;
+    }
+
+
+}

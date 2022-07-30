@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+
+.pricingdetailContainer{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.pricingdetailContainer{
+    margin-top: 20px;
+   
+    
+}
+.Pricingdetails{
+    /* display: flex;
+    justify-content:center;
+    width: 100%; */
+    height: 470px;
+    flex: 1 1 310px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+
+
+
+
+
+
+
+
+
+.pricingcontent{
+
+    /* #036de9 */
+    /* background-color:#4a99f3;    */
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 60px 10px 60px;
+    font-family: 'Barlow', sans-serif;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+  
+    border: 2px solid rgb(17, 16, 16);
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 0.5px 0px rgb(237, 233, 233); 
+   
+}
+
+
+
+
+.price{
+    background-color:  #fff;
+    padding: 30px;
+    color: #000;
+    width: fit-content;
+    border-radius: 100%;
+}
+.pricingcontent ul li{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.pricingconten:hover{
+    background-color: rgb(6, 252, 47);
+   transition: all 1s;
+   
+}
+
+
+button{
+    padding: 10px 0px 10px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    margin: 20px ;
+    font-weight: 700;
+    color: #6739B7;
+}
+
+
+@media screen and (max-width: 991px) {
+
+
+    .pricingdetailContainer{
+        margin-top: 10px;
+        
+    }
+    .Pricingdetails{
+        height: 400px;
+    }
+    .pricingcontent{
+        height: 350px;
+    }
+   
+
+}
+
+
+@media screen and (max-width: 391px) {
+
+
+
+    .Pricingdetails{
+        height: 340px;
+    }
+
+    .pricingcontent{
+        height: 300px;
+    }
+
+
+    button{
+        padding: 8px 0px 8px 8px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #fff;
+        font-size: 16px;
+        margin: 15px ;
+        font-weight: 700;
+        color: #6739B7;
+    }
+
+
+    .pricingcontent ul li{
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .price{
+       
+        padding: 20px;
+     
+        
+    }
+
+
+}

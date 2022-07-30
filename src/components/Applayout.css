@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Baloo+Bhai+2&family=Bree+Serif&family=Charis+SIL:wght@700&family=Jomhuria&family=Overpass:wght@300&display=swap');
+
+.appservicelayout{
+    background-color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 10px;
+    height: 330px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 0.5px 0px rgb(237, 233, 233);
+
+
+
+
+
+
+
+    background-size: 200% 200%;
+background-image: 
+linear-gradient(to top, #df9927 50%, transparent 50%);
+-webkit-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+-moz-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+-ms-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+-o-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+   
+   
+}
+.appservicelayout .appserviseheading{
+    display: flex;
+    justify-content:left;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 25px;
+    /* font-family: 'Charis SIL', serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100%;
+}
+.appservicelayout .appserviseheading img{
+    margin-right: 25px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.appservicelayout .appservicedescription{
+    font-size: 20px;
+    font-family: 'Charis SIL', serif;
+}
+
+.appservicelayout:hover{
+    /* background-color: #6739B7;
+    color: #fff;
+   transition: all 1s; */
+
+
+
+   color: white;
+    border-color: #A72424;
+    background-image: 
+    linear-gradient(to top, #df9927 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    -moz-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    -ms-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    -o-transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+    transition: background-position 500ms, color 500ms ease, border-color 500ms ease;
+ 
+   
+}
+
+.appservicedescription:hover{
+    color: #fff;
+
+}
+
+
+
+.appservicelayout img{
+    width: 50px;
+    background-color: rgb(225, 217, 217);
+}
+.appservicelayout p{
+    width: 100%;
+    text-align: left;
+    color: rgb(56, 53, 53);
+    
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .appservicelayout .appserviseheading{
+        
+        font-size: 20px;
+       
+    }
+
+    .appservicelayout .appservicedescription{
+        font-size: 16px;
+       
+    }
+
+}

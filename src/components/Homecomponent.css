@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Charis+SIL:wght@700&display=swap');
+
+/* .appClass{
+  
+} */
+.headerzindex{
+    z-index: 100;
+}
+.circlebubble{
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    z-index: 1000;
+
+    animation: myfirstbubble infinite;
+    position: relative;
+    animation-duration: 20s;
+   
+    
+}
+
+.circlebubblesolid{
+    border: 2px solid black;
+    background-color: grey;
+    width: 15px;
+    height: 15px;
+    right: 0;
+    border-radius: 20px;
+    z-index: 1000;
+
+    animation: myfirstbubble infinite;
+    position: relative;
+    animation-duration: 8s;
+}
+
+
+@keyframes myfirstbubble {
+    0%   { top: 0px; left: 0px;}
+    25%  {top: 0px; left: 200px;}
+    50%  { top: 200px; left: 200px;}
+     75%  { top: 200px; left: 0px;}
+    100%  { top: 0px; left: 0px;}
+    
+  }
+ 
+
+.topgap{
+    padding-top: 80px;
+}
+.dcservices{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+   
+}
+
+.animContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#dcservicesh2{
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    font-size: 2.8rem;
+    /* font-weight: 1000; */
+    
+}
+
+
+.dcservices p{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 200;
+
+}
+.services_layout{
+    /* display: flex;
+    justify-content:center;
+    width: 100%; */
+    height: 360px;
+    flex: 1 1 450px;
+   
+    
+}
+
+
+.shaperotate{
+    font-size: 30px;
+    width: 20px;
+    animation: rotation 8s infinite linear;
+    
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+
+
+
+
+.projectCompleted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+/* .servicelayoutContainer ,.pricingdetailContainer */
+
+.pclayoutContainer  {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+#pricingheadingContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pricingheadingContainer h2{
+    font-size: 60px;
+}
+.pricingdetailContainer{
+    margin-top: 20px;
+   
+    
+}
+
+
+
+
+.pc_layout{
+    /* display: flex;
+    justify-content:center;
+    width: 100%;
+    */
+    height: 370px;
+    flex: 1 1 300px;
+   
+}
+
+.noofproject_title{
+    text-align: center;
+    /* padding: 10px; */
+    font-size: 3.7rem;
+    margin: 10px 0px;
+}
+
+.Pricingdetails{
+    /* display: flex;
+    justify-content:center;
+    width: 100%; */
+    height: 470px;
+    flex: 1 1 310px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+
+
+.endserviceMastercontainer{
+    display: flex;
+    justify-content: center;
+
+}
+.endserviceMastercontainer .endserviceimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    transition: transform 2s;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+
+.endserviceMastercontainer .endserviceimg:hover{
+    -ms-transform: scale(1); 
+        -webkit-transform: scale(1); 
+        transform: scale(1); 
+       background-color: #fff;
+}
+.endserviceimg img{
+    width: 95%;
+    border: 2px solid black;
+}
+
+.endserviceMastercontainer .endserviceparaContainer{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.endservicepara{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.endservicepara p,h2{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.endservicepara h2{
+    padding: 5px 10px;
+    
+}
+
+
+
+#serviceanimdiv{
+    width: 30%;
+}
+
+#priceanimdiv{
+    height: 5px;
+    background-color: blue;
+    width: 10%;
+    
+}
+
+
+.animdiv{
+    width: 0%;
+    height: 100%;
+    background: #50C89C;
+    animation: fill 5s ease infinite;
+   
+    
+}
+
+
+@keyframes fill {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 1%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+
+
+    #priceanimdiv{
+        height: 5px;
+        background-color: blue;
+        width: 30%;
+        
+    }
+    
+    
+    .animdiv{
+        width: 0%;
+        height: 100%;
+        background: #50C89C;
+        animation: fill 5s ease infinite;
+       
+        
+    }
+
+  
+    .dcservices p{
+        width: 90%;
+        font-size: 14px;
+    
+    }
+    
+   .noofproject_title strong{
+    color: blue;
+   }
+    .noofproject_title{
+        text-align: center;
+        /* padding: 10px; */
+        font-size: 20px;
+    }
+    #dcservicesh2{
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+        
+    }
+    .pc_layout{
+        height: 235px;
+    }
+    .Pricingdetails{
+        height: 400px;
+    }
+   
+   
+
+
+
+
+
+
+    .pricingdetailContainer{
+        margin-top: 10px;
+        
+    }
+    #pricingheadingContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #pricingheadingContainer h2{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .endserviceMastercontainer{
+        flex-direction: column;
+    }
+
+    .endserviceMastercontainer .endserviceimg{
+        width: 100%;
+        margin-bottom: 20px;
+        
+        
+    }
+    .endserviceimg img{
+        width: 100%;
+        border: 2px solid black;
+    }
+
+    .endserviceMastercontainer .endserviceparaContainer{
+        width: 100%;
+        margin-bottom: 10px;
+       align-items: center;
+       text-align: center;
+       
+        
+    }
+
+    .endservicepara{
+        width: 95%;
+        margin-bottom: 30px;
+       align-items: center;
+       text-align: center;
+      
+    }
+    .endservicepara p{
+        font-size: 15px;
+    }
+
+
+  
+}
+
+
+@media screen and (max-width: 391px) {
+
+    .Pricingdetails{
+        height: 340px;
+    }
+
+}
+
+
